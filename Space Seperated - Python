@@ -1,2 +1,2 @@
 def print_fun():
-    print("Geeks For Geeks")
+    print("Geeks","For","Geeks")
