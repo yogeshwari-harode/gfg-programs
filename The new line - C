@@ -1,5 +1,4 @@
 void printNewLine()
 {
-    printf("Geeks\nfor\nGeeks");
-    
+    printf("Geeks\nfor\nGeeks"); 
 }
