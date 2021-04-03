@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+
+ // } Driver Code Ends
+//User function Template for C
+
 void inputData()
 {
     int a;
@@ -8,3 +14,17 @@ void inputData()
     
     printf("\n");
 }
+
+// { Driver Code Starts
+int main()
+{
+    int t;
+    scanf("%d", &t);
+    
+    while(t--)
+    {
+       inputData();
+       
+    }
+    return 0;
+} 
