@@ -24,7 +24,6 @@ int main()
     while(t--)
     {
        inputData();
-       
     }
     return 0;
 } 
