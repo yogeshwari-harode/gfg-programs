@@ -1,6 +1,3 @@
-//User function Template for C++
-
-//Comment the part that outputs b
 void comment(int a,int b,int c)
 {
     cout<<a<<endl;
