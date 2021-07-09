@@ -1,0 +1,11 @@
+class Solution{   
+public:
+    int checkPerfectSquare(int N){
+        int ans=sqrt(N);
+        if(ans*ans==N)
+        return 1;
+        else 
+        return 0;
+        
+    }
+};
