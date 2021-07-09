@@ -1,0 +1,8 @@
+class Solution 
+{
+	public:
+	int greatestOfThree(int A, int B, int C) 
+	{
+		return max(A, max(B, C));
+	}
+};
