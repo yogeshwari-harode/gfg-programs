@@ -1,0 +1,8 @@
+class Solution
+{
+	public:
+	double celciusToFahrenheit(int C)
+	{
+	return 1.8*C+32;
+	}
+};
