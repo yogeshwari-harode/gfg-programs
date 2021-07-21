@@ -1,0 +1,8 @@
+void bitwise(long int a, long int b, long int c)
+{
+	long int d = a ^ a;
+	long int e = c ^ b;
+	long int f = a & b;
+	long int g = c | d;
+	printf("%ld\n%ld\n%ld\n%ld\n%ld",d,e,f,g,~e);
+}
