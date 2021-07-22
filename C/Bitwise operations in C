@@ -1,0 +1,9 @@
+void bitOperation(int A, int B, char ch)
+{
+	if(ch=='^')
+	printf("%d\n",A^B);
+	else if(ch=='&')
+	printf("%d\n",A&B);
+	else
+	printf("%d\n",A|B);
+}
