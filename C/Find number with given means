@@ -1,0 +1,6 @@
+void findXY(int am, int gm)
+{
+	int x=am+sqrt((am*am) - (gm*gm));
+	int y=am-sqrt((am*am) - (gm*gm));
+	printf("%d %d",x,y);
+} 
