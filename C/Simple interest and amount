@@ -1,0 +1,7 @@
+void interest_amount(int p, int t, int r)
+{
+	float SI,A;
+	SI=(p*r*t)/100;
+	A=p+SI;
+	printf("%.2f %.2f",SI,A);
+}
