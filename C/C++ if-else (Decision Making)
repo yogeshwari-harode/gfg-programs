@@ -1,0 +1,13 @@
+class Solution
+{
+	  public:
+	  string compareFive(int n)
+	  {
+		    if(n>5)
+		      printf("Greater than 5");
+		    else if(n<5)
+		      printf("Less than 5");
+		    else
+	        printf("Equal to 5");
+    }
+};
