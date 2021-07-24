@@ -1,0 +1,5 @@
+void inc_dec(int x, int y)
+{
+	printf("%d\n",++x);
+	printf("%d",--y);
+}
