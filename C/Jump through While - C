@@ -1,0 +1,8 @@
+void print_Decreasingpower(int x)
+{
+	while(x>=1)
+	{   
+		printf("%d ",x*x);
+		x--;
+	}
+}
