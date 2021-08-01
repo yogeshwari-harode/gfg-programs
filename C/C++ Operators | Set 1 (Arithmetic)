@@ -1,0 +1,21 @@
+class Solution 
+{
+      public:
+      vector<int> cppOperators(int A, int B) 
+      {
+	        vector<int> ans;
+	        ans.push_back(A + B);
+	        ans.push_back(A * B);
+	        if (A > B) 
+	        {
+		          ans.push_back(A - B);
+		          ans.push_back(A / B);
+	        } 
+	        else 
+	        {
+		         ans.push_back(B - A);
+	  	        ans.push_back(B / A);
+	        }
+	        return ans;
+      }
+};
