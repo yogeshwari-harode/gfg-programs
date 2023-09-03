@@ -1,0 +1,28 @@
+class Solution
+{
+    public:
+    //Function to check if brackets are balanced or not.
+    bool ispar(string x)
+    {
+        stack<char>S;
+        for(int i=0; i<x.length(); i++){
+            if(x[i]=='(' || x[i]=='{' || x[i]=='['){
+                S.push(x[i]);
+            }
+            else{
+                if(!S.empty() && x[i]==')' && S.top()=='(')
+                    S.pop();
+                else
+                    if(!S.empty() && x[i]=='}' && S.top()=='{')
+                        S.pop();
+                    else
+                        if(!S.empty() && x[i]==']' && S.top()=='[')
+                            S.pop();
+                        else
+                            return false;
+            }
+        }
+        return S.empty();
+    }
+
+};
