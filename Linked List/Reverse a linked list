@@ -1,0 +1,19 @@
+class Solution
+{
+    public:
+    //Function to reverse a linked list.
+    struct Node* reverseList(struct Node *head)
+    {
+        struct Node *prevnode ,*nextnode,*currnode;
+        currnode=head;
+        prevnode=NULL;
+        nextnode=NULL;
+        while(currnode){
+            nextnode=currnode->next;
+            currnode->next=prevnode;
+            prevnode=currnode;
+            currnode=nextnode;
+        }
+        return prevnode;
+    } 
+};
